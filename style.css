@@ -1,0 +1,146 @@
+
+header > h1 {
+	border-bottom: 1px dashed black;
+	font-style: italic;
+	font-size: x-large;
+}
+
+footer > p {
+	border-top: 1px dashed black;
+	font-style: italic;
+}
+
+table {
+	border-spacing: 5px;
+	width: 530px;
+}
+
+th {
+	color: #FFF;
+	background: #000;
+	text-align: left;
+}
+
+td {
+	border-bottom: 1px solid black;
+	padding: 3px;
+	background: #F0F0F0;
+	text-align: left;
+	vertical-align: top;
+}
+
+p#err_msg {
+	color: #F00;
+	font-weight: bold;
+}
+
+input[type=text], textarea {
+	background-color: #ff8000;
+	color: white;
+}
+
+input[type=submit] {
+	background-color: #ff8000;
+	color: white;
+}
+
+body {
+	background-color: #005c99;
+	color: white;
+}
+
+
+#title {
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	background-color: lightslategray;
+	margin: auto;
+	
+}
+
+.Link {
+	color: aqua;
+}
+
+.Link:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+.Link:focus {
+	color: green;
+	text-decoration:underline;
+}
+
+.Link:active {
+	color: red;
+	text-decoration: underline;
+}
+
+.Link:visited {
+	color: RebbeccaPurple;
+}
+
+.center-text {
+	margin: auto;
+	background-color: orange;
+	color: white;
+	text-align: center;
+	border: 5px solid blue;
+	width: 300px;
+	margin-bottom: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    
+	float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
