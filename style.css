@@ -45,7 +45,8 @@ input[type=submit] {
 }
 
 body {
-	background-color: lime;
+	background-color: #708090;
+
 	color: white;
 }
 
@@ -143,4 +144,10 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+h1
+{
+	color: #ADD8E6;
+	text-align: center;
 }
